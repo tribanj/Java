@@ -17,6 +17,8 @@ public class index {
 
 
    //for loop 
+
+
    // public static void main(String[] args) {
    //    Scanner sc = new Scanner(System.in);
    //    int n = sc.nextInt();
@@ -33,5 +35,34 @@ public class index {
 
 
    // Do while Loop 
+
+
+      // public static void main(String[] args) {
+         
+      //    Scanner sc = new Scanner(System.in) ;
+      //    // int n = sc.nextInt();
+      //    int  num = 1;
+      //    do {
+      //       System.out.println(num);
+      //       num ++;
+      //    } while (num <=10);
+      
+      // }
+
+
+      // print the sum of the stream of integers in the input
+         public static void main(String[] args) {
+            
+            Scanner sc = new Scanner(System.in);
+            int num = sc.nextInt();
+            int sum = 0;
+            
+            while (num != -1){
+               sum += num;
+               num = sc.nextInt();
+
+            }
+            System.out.println(sum);
+         }
 
 }
