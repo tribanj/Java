@@ -1,6 +1,16 @@
-class index {
-   public static void main(String[] args) {
-    System.out.println("Hello teibhuwan nice work");
-   }
+import java.util.Scanner;
 
+public class index {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int num = 1;
+         
+
+        while(num <= n){
+            System.out.println(num);
+            num ++ ;  //increment operator
+        }
+    }
 }
