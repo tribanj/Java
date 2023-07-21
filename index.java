@@ -51,18 +51,47 @@ public class index {
 
 
       // print the sum of the stream of integers in the input
-         public static void main(String[] args) {
+         // public static void main(String[] args) {
             
-            Scanner sc = new Scanner(System.in);
-            int num = sc.nextInt();
-            int sum = 0;
-            
-            while (num != -1){
-               sum += num;
-               num = sc.nextInt();
+         //    Scanner sc = new Scanner(System.in);
+         //    int num = sc.nextInt();
+         //    int sum = 0;
 
+         //    while (num != -1){
+         //       sum += num;
+         //       num = sc.nextInt();
+
+         //    }
+         //    System.out.println(sum);
+         // }
+
+
+         // BREAK *******************************
+         // public static void main(String[] args) {
+            // Scanner sc = new Scanner(System.in);
+         //    int num = 1;
+
+         //    while(true){
+         //       if((num % 5 == 0) && (num % 7 == 0)){
+         //          System.out.println("Found Ans :" + num);
+         //          break ;
+         //       }
+         //       num++;
+         //    }
+
+         // }
+
+
+         // CONTINUE ****************8
+
+         public static void main(String[] args) {
+            for (int num = 1; num<=50; num++){
+               if(num % 3 == 0){
+                  continue ; 
+               }
+               System.out.println(num);
             }
-            System.out.println(sum);
          }
+
 
 }
