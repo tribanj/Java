@@ -2,3 +2,8 @@ while loop
 while(condition){
     //code
 }
+
+
+Nested loops******************
+lop under the loop is nested loops
+
