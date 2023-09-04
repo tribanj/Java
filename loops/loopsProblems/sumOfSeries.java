@@ -1,4 +1,4 @@
-// series is S = 1-2+3-4......n
+// series is S = 1-2+3-4......nWWWWWWW
 
 import java.util.Scanner;
 
