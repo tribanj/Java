@@ -7,3 +7,10 @@ while(condition){
 Nested loops******************
 lop under the loop is nested loops
 
+
+
+pattern summary
+
+1. analyse rows & column
+2.Derive relation b/w rows and column
+3.What to Print and Where to Print
